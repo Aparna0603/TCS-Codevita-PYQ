@@ -14,3 +14,4 @@ String s1 = sc.nextLine();
 String s2 = sc.nextLine();
 System.out.println(goodString(s1,s2));
 }
+}
