@@ -1,0 +1,22 @@
+import java.util.*;
+public class Solution {
+public static int countZeroes(int L, int K) {
+if(K==0) {
+return L;
+}
+if(K==L) {
+return 0;
+}
+int maxZeroes = 0;
+if(K>0) {
+maxZeroes = 1;
+}
+return maxZeroes;
+}
+public static void main(String args[]) {
+Scanner sc = new Scanner(System.in) 
+int L = sc.nextInt();
+int K = sc.nextInt();
+System.out.println(countZeroes(L,K));
+}
+}
